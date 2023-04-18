@@ -36,3 +36,5 @@ jobs:
           echo test, and deploy your project.
       - name: Install Octopus CLI
         uses: OctopusDeploy/install-octopus-cli-action@v3.0.0
+      - name: Deploy a Release in Octopus Deploy
+        uses: OctopusDeploy/deploy-release-action@v3.0.3
