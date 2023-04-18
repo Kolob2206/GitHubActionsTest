@@ -34,3 +34,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: Install Octopus CLI
+        uses: OctopusDeploy/install-octopus-cli-action@v3.0.0
